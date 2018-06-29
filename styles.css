@@ -1,0 +1,134 @@
+*{
+	color: black;
+	font-family: Open sans, sans-serif;
+}
+
+body{
+	background-color: #ccffff;
+}
+
+nav{
+	float: right;
+	padding-right: 30px;
+	word-spacing: 40px;
+	align-items: center;
+	justify-content: center;
+}
+
+li{
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+}
+
+#content{
+	max-width: 100%;
+	align-items: center;
+}
+
+#images{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 200px;
+	right: 130px;
+}
+
+#mockup{
+	max-width: 10%;
+	position: relative;
+	left: 100px;
+}
+
+aside{
+	display: inline;
+	float:right;
+	padding-right: 3vw;
+	padding-bottom: 8vw;
+}
+
+#androidlogo,#appstorelogo{
+	height: 30px;
+}
+
+#twitterlogo{
+	height: 30px;
+	position: relative;
+	top: 5px;
+}
+
+#spurlogo{
+	max-width: 28%;
+}
+
+
+footer{
+	clear: both;
+	text-align: center;
+	position: relative;
+	top: 230px;
+	padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 630px){
+	nav{
+		margin-bottom: 30px;
+	}
+	ul{
+		text-align: center;
+	}
+
+	#images{
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right:0;
+		left:0;
+		padding-right:60px;
+	}
+	#mockup{
+		position: relative;
+		left: 50px;
+		max-width: 20%;
+	}
+	#spurlogo{
+		max-width: 35%;
+	}
+	aside{
+		position: absolute;
+		margin-top: 170px;
+		padding-top: 50px;
+		font-family: Open Sans, sans-serif;
+		font-size: 13px;
+		font-style: bold;
+	}
+
+	aside div{
+		margin: 0 auto;
+		width: 250px;
+	}
+	footer{
+		position: relative;
+		top:300px;
+
+	}
+}
+
+@media only screen and (max-width: 1200px){
+
+	aside{
+		position: relative;
+		top: 100px;
+	}
+		aside div{
+		margin: 0 auto;
+		width: 250px;
+	}
+
+	}
