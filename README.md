@@ -1,2 +1,2 @@
 # spurwebsite
-Website for the app Spur (Currently in development)
+Website for the app Spur (Currently under development).
